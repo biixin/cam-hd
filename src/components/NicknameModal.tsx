@@ -36,7 +36,7 @@ export default function NicknameModal({ onSubmit }: NicknameModalProps) {
             type="text"
             value={nickname}
             onChange={(e) => setNickname(e.target.value)}
-            placeholder="Digite seu nickname..."
+            placeholder="Digite seu Nome..."
             className="w-full bg-gray-800/80 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 border border-gray-700 placeholder-gray-500"
             maxLength={20}
             autoFocus
@@ -52,7 +52,7 @@ export default function NicknameModal({ onSubmit }: NicknameModalProps) {
         </form>
 
         <p className="text-xs text-gray-500 text-center mt-4">
-          Seu nickname será visível para todos no chat
+          Seu nome será visível para todos no chat
         </p>
       </div>
     </div>
